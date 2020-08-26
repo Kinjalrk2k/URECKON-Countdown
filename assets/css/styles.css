@@ -1,3 +1,8 @@
+@font-face {
+  font-family: font-gotham;
+  src: url(../fonts/gotham-bold/Gotham-Bold.ttf);
+}
+
 #backgroud-vid-container {
   background: #000;
   position: fixed;
@@ -140,12 +145,15 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
+  font-family: font-gotham;
+
 }
 
 .glitch {
-  font-family: sans-serif;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: font-gotham;
   color: #fff;
   position: relative;
   margin: 0;
