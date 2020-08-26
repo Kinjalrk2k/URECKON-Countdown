@@ -17,8 +17,8 @@
   </head>
   <body>
     <!-- background video player -->
-    <div id="player">
-      <!-- <iframe
+    <!-- <div id="player">
+      <iframe
         id="background-vid"
         frameborder="0"
         height="100%"
@@ -28,8 +28,8 @@
         allowfullscreen="allowfullscreen"
         onload='playVideo();'
       >
-      </iframe> -->
-    </div>
+      </iframe>
+    </div> -->
     <div id="overlay"></div>
 
     <div id="logo-header">
@@ -86,12 +86,12 @@
         </li>
       </ul>
     </div>
-    
+
     <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/flipdown.js"></script>
     <script>
-      new FlipDown(1613347200).start();
+      new FlipDown(new Date("2021.02.15").getTime() / 1000).start();
     </script>
   </body>
 </html>
