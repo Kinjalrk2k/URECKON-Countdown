@@ -25,12 +25,33 @@ body {
   left: 0;
 }
 
+.overlay-change {
+  background: #780206 !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #061161,
+    #780206
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #061161,
+    #780206
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #overlay {
   /* background-color: darkblue; */
-  background: #780206;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #780206; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #061161,
+    #780206
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   opacity: 0.8;
   position: fixed;
@@ -41,6 +62,8 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
   right: 0;
   bottom: 0;
   left: 0;
+
+  transition: all;
 }
 
 * {
@@ -94,6 +117,10 @@ li span {
   color: white;
 }
 
+#social-footer a:hover {
+  color: #188a97;
+}
+
 .countdown-container {
   width: 100% !important;
   height: 40% !important;
@@ -120,6 +147,14 @@ li span {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+#logo-header img {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#logo-header img:hover {
+  transform: rotate(360deg);
 }
 
 #logo-header img {
