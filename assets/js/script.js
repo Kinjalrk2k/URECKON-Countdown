@@ -28,3 +28,13 @@ function onPlayerReady(event) {
 // setInterval(function () {
 //   $("#overlay").toggleClass("overlay-change")
 // }, 500);
+
+setTimeout(function () {
+  $("#logo-header").css({
+    height: "25%",
+    // width: "25%",
+    "-webkit-transform": "rotate(360deg)",
+    "-moz-transform": "rotate(360deg)",
+    transform: "rotate(360deg)" /* For modern browsers(CSS3)  */,
+  });
+}, 3000);
