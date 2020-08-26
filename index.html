@@ -12,8 +12,8 @@
     <title>Countdown</title>
   </head>
   <body>
-    <!-- <div id="backgroud-vid-container">
-      <iframe
+    <div id="player">
+      <!-- <iframe
         id="background-vid"
         frameborder="0"
         height="100%"
@@ -21,9 +21,10 @@
         src="https://youtube.com/embed/oxICyKA-TxI?autoplay=1&controls=0&showinfo=0&mute=1&enablejsapi=1&loop=1"
         allow="autoplay"
         allowfullscreen="allowfullscreen"
+        onload='playVideo();'
       >
-      </iframe>
-    </div> -->
+      </iframe> -->
+    </div>
     <div id="overlay"></div>
 
     <div id="logo-header">
@@ -44,23 +45,24 @@
     <div id="social-footer">
       <ul>
         <li>
-          <span><i class="fab fa-facebook-f"></i></span>
+          <span><a href="https://www.facebook.com/ureckon.uemk" class="fab fa-facebook-f"></a></span>
         </li>
         <li>
-          <span><i class="fab fa-instagram"></i></span>
+          <span><a href="https://www.instagram.com/ureckon.uemk" class="fab fa-instagram"></a></span>
         </li>
         <li>
-          <span><i class="fab fa-youtube"></i></span>
+          <span><a href="https://www.youtube.com/UreckonUEMKolkata" class="fab fa-youtube"></a></span>
         </li>
         <li>
-          <span><i class="fab fa-linkedin"></i></span>
+          <span><a href="https://www.linkedin.com/company/ureckon" class="fab fa-linkedin"></a></span>
         </li>
         <li>
-          <span><i class="fab fa-twitter"></i></span>
+          <span><a href="https://www.twitter.com/Ureckon_Uemk" class="fab fa-twitter"></a></span>
         </li>
       </ul>
     </div>
-    <!-- <script src="assets/js/script.js"></script> -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
     <script src="assets/js/flipdown.js"></script>
     <script>
       new FlipDown(1613347200).start();

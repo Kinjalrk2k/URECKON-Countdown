@@ -3,7 +3,7 @@
   src: url(../fonts/gotham-bold/Gotham-Bold.ttf);
 }
 
-#backgroud-vid-container {
+#player {
   background: #000;
   position: fixed;
   z-index: -99;
@@ -95,6 +95,11 @@ li span {
 
 #social-footer li span {
   font-size: 2rem !important;
+}
+
+#social-footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .countdown-container {
