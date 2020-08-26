@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/flipdown.css" />
     <script
       src="https://kit.fontawesome.com/2387d21539.js"
       crossorigin="anonymous"
@@ -28,24 +29,39 @@
     <div id="logo-header">
       <img src="assets/img/Asset 60.png" alt="Logo" />
     </div>
-    <div id="countdown-container">
-      <p class="glitch" data-text="Coming Soon">Coming Soon</p>
+    <!-- <div id="countdown-container">
       <ul>
         <li><span id="days"></span>days</li>
         <li><span id="hours"></span>Hours</li>
         <li><span id="minutes"></span>Minutes</li>
         <li><span id="seconds"></span>Seconds</li>
       </ul>
-    </div>
+    </div> -->
+    <p class="glitch" data-text="Coming Soon">Coming Soon</p>
+    <div id="flipdown" class="flipdown countdown-container"></div>
     <div id="social-footer">
       <ul>
-        <li><span><i class="fab fa-facebook-f"></i></span></li>
-        <li><span><i class="fab fa-instagram"></i></span></li>
-        <li><span><i class="fab fa-youtube"></i></span></li>
-        <li><span><i class="fab fa-linkedin"></i></span></li>
-        <li><span><i class="fab fa-twitter"></i></span></li>
+        <li>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </li>
+        <li>
+          <span><i class="fab fa-instagram"></i></span>
+        </li>
+        <li>
+          <span><i class="fab fa-youtube"></i></span>
+        </li>
+        <li>
+          <span><i class="fab fa-linkedin"></i></span>
+        </li>
+        <li>
+          <span><i class="fab fa-twitter"></i></span>
+        </li>
       </ul>
     </div>
-    <script src="assets/js/script.js"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
+    <script src="assets/js/flipdown.js"></script>
+    <script>
+      new FlipDown(1613347200).start();
+    </script>
   </body>
 </html>

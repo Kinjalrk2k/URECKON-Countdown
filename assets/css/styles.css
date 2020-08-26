@@ -91,13 +91,26 @@ li span {
   font-size: 2rem !important;
 }
 
-#countdown-container {
-  width: 100%;
-  height: 50%;
+.countdown-container {
+  width: 100% !important;
+  height: 40% !important;
   color: white;
   margin: 0 auto;
-  padding: 0.5rem;
+  /* padding: 5rem; */
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glitch {
+  text-align: center;
+  width: 100% !important;
+  height: 10% !important;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /* align-items: center; */
 }
 
 #logo-header {
