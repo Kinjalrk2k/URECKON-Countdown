@@ -10,8 +10,14 @@ function onYouTubeIframeAPIReady() {
     videoId: 'oxICyKA-TxI',
     events: {
       'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
     }
   });
+}
+
+function onPlayerStateChange(event) {
+  event.target.mute();
+  event.target.playVideo();
 }
 
 function onPlayerReady(event) {
