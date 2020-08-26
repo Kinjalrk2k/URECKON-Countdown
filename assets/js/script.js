@@ -37,4 +37,4 @@ setTimeout(function () {
     "-moz-transform": "rotate(360deg)",
     transform: "rotate(360deg)" /* For modern browsers(CSS3)  */,
   });
-}, 3000);
+}, 1200);
