@@ -2,6 +2,16 @@
   font-family: font-gotham;
   src: url(../fonts/gotham-bold/Gotham-Bold.ttf);
 }
+/* general styling */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: font-gotham;
+}
 
 #player {
   background: #000;
@@ -17,17 +27,10 @@
 
 #overlay {
   /* background-color: darkblue; */
-  background: #141e30; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #243b55,
-    #141e30
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #243b55,
-    #141e30
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   opacity: 0.8;
   position: fixed;
@@ -39,17 +42,6 @@
   bottom: 0;
   left: 0;
 }
-
-/* #countdown-container {
-  z-index: 2;
-  color: white;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-} */
 
 * {
   box-sizing: border-box;
@@ -107,7 +99,6 @@ li span {
   height: 40% !important;
   color: white;
   margin: 0 auto;
-  /* padding: 5rem; */
   text-align: center;
   display: flex;
   justify-content: center;
@@ -132,32 +123,10 @@ li span {
 }
 
 #logo-header img {
-  /* height: 10rem; */
   max-height: 100%;
 }
 
-/* general styling */
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  /* -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; */
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
-  font-family: font-gotham;
-
-}
-
 .glitch {
-  /* font-family: 'Courier New', Courier, monospace; */
   font-family: font-gotham;
   color: #fff;
   position: relative;
