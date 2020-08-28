@@ -1,0 +1,5 @@
+# for vscode intellisense
+jsconfig.json
+
+# vscode folders
+/.vscode

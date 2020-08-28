@@ -145,8 +145,6 @@ li span {
   text-align: center;
 }
 
-
-
 .loading {
   height: 38% !important;
   /* margin: 2% auto; */
@@ -206,11 +204,6 @@ li span {
   animation: anim2 1s infinite linear alternate-reverse;
 }
 
-@media (max-width: 325px) {
-  .glitch {
-    font-size: 30px;
-  }
-}
 @media (max-width: 991.98px) {
   .glitch {
     font-size: 40px;
@@ -222,6 +215,11 @@ li span {
   }
 }
 
+@media (max-width: 325px) {
+  .glitch {
+    font-size: 30px;
+  }
+}
 @keyframes anim1 {
   0%,
   9% {
