@@ -145,6 +145,8 @@ li span {
   text-align: center;
 }
 
+
+
 .loading {
   height: 38% !important;
   /* margin: 2% auto; */
@@ -206,7 +208,7 @@ li span {
 
 @media (max-width: 991.98px) {
   .glitch {
-    font-size: 55px;
+    font-size: 40px;
   }
 }
 @media (min-width: 992px) {
