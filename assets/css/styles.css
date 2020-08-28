@@ -206,6 +206,11 @@ li span {
   animation: anim2 1s infinite linear alternate-reverse;
 }
 
+@media (max-width: 325px) {
+  .glitch {
+    font-size: 30px;
+  }
+}
 @media (max-width: 991.98px) {
   .glitch {
     font-size: 40px;
