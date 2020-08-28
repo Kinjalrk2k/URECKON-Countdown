@@ -104,8 +104,12 @@ li span {
   text-align: center;
   bottom: 0;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-  bottom: 0 !important;
+  /* padding-bottom: 2rem; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10% !important;
+  margin: 0 auto;
 }
 
 #social-footer li span {
@@ -139,6 +143,11 @@ li span {
   margin: 0 auto;
   padding: 0.5rem;
   text-align: center;
+}
+
+.loading {
+  height: 38% !important;
+  /* margin: 2% auto; */
 }
 
 #logo-header {
@@ -296,4 +305,19 @@ li span {
   100% {
     clip-path: inset(92% 0% 1% 0%);
   }
+}
+
+/* svg {
+  display: block;
+  margin: auto;
+  margin: 2% auto;
+} */
+
+#wrap {
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
